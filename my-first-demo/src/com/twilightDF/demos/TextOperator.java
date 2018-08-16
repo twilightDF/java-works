@@ -7,6 +7,7 @@ package com.twilightDF.demos;
 public class TextOperator {
 
 	public static void main(String[] args) {
+		
 /**
  * 二元运算符
  */
@@ -30,6 +31,7 @@ public class TextOperator {
 		 * 
 		 */
 		
+		System.out.println("#############################");
 		int g = 3;
 		int h = g++;//先赋值给h，再自加！
 		System.out.println("g=" + g + "\nh=" + h);
@@ -37,5 +39,44 @@ public class TextOperator {
 		 h = ++g;//先自加，再赋值给i！
 		System.out.println("g=" + g + "\nh=" + h);
 		
-	}
+		/**
+		 * 测试扩展运算符
+		 * "+= , -= , *= , /= , %="  
+		 * 以“ += ”为例！
+		 */
+		
+		System.out.println("#########################");
+		int i = 3;
+		int j = 4;
+		i += j;//i=i+j
+		
+		a *= b + 3;//a=a*(b+3)
+		
+		System.out.println("i=" + i + "\nj=" + j);
+		System.out.println("a=" + a + "\nb=" + b);
+		
+		/**
+		 * 测试关系运算符
+		 * “  ==  ,  !=  ,  <  ,  >  ,  <=  ,  >=  ”
+		 */
+		System.out.println("##############################");
+		 int k = 5;
+		 System.out.println(k==5);
+		 System.out.println(k!=5);
+		 System.out.println(k<=3);
+		 
+		 //char类型也可以用于关系运算符，但编程中使用较少！
+		 //将char字符转换成对应的unicode进行运算！
+		 char l = 'a';
+		 char m = 'b';
+		 
+		 System.out.println(0 + l);//将 l 转换成 int 型 
+		 System.out.println((int)l);//另一种方法将 l 转换为 int 型！
+		 
+		 System.out.println(l == m);
+		 
+		 
+			
+	}	
+		
 }
