@@ -41,6 +41,40 @@ public class TextTypeConvert {
 		System.out.println(h1);
 		System.out.println((char)h1);
 		
+		/**
+		 * 
+		 *基本类型转换常见的错误！
+		 *
+		 */
+		
+		//操作数太大，是否溢出？
+		
+		int i = 2000000000;
+		
+		int j = i * 2;
+		System.out.println(j);//输出-294967296 错误！原因：i *i1 结果已经超过int表数范围！
+		
+		long j2 = 2 * i;
+		System.out.println(j2);//输出-294967296 错误！将错误的“结果”赋值给long类型不能改变问题
+		
+		//解决方法 ：将第一个操作数转换为long类型，再赋值给long类型的变量
+		long j1 = 2L * i;
+		
+		System.out.println(j1);
+		
+		//变量名L尽量不要用小写l ，long类型用大写不要用小写！
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
