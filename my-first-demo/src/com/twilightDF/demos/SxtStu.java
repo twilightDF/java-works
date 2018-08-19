@@ -20,7 +20,7 @@ public class SxtStu {
 		System.out.println("我在玩游戏！");
 	}
 	//程序入口javac       java SxtStu 
-	public static void main(String[] args)/*一个方法  mian 方法*/ {
+	public static void main(String[] args)/*一个方法  main 方法*/ {
 		
 		//建立对象
 		SxtStu stu = new SxtStu();
