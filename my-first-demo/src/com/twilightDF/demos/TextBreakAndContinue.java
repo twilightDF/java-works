@@ -43,7 +43,21 @@ public class TextBreakAndContinue {
 			}
 		}
 		
-		
+			/**
+			 * 测试带标签的break和continue
+			 */
+			 //输出101~200之间的质数
+		System.out.println();
+		System.out.println("######################");
+		System.out.println("质数有： ");
+		outer:for(int b = 101;b <= 150;b++) {
+			for(int c = 2;c <= b/2;c++) {
+				if(b%c == 0) {
+					continue outer;
+				}
+			}
+			System.out.print(b + ", ");
+		}
 		
 		
 		
