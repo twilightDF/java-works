@@ -11,5 +11,15 @@ public class TextFor {
 			sum +=i;
 		}
 		System.out.println(sum);
+		System.out.println("##########################");
+	for(int j = 1;j <= 5;j++) {
+		for(int k = 1;k <= 5;k++) {
+			System.out.print(j + " ");
+		}
+		System.out.println();
 	}
+	System.out.println("############################");
+	
 }
+	
+}	  
