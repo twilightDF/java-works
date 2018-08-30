@@ -35,14 +35,10 @@ public class TestObject {
 		System.out.println(str1.equals(str2));//字符相同，都没有，true
 		}
 	
-		//当然，我们也可以重写Object类里的toString()方法。让它输出其他东西
-		public String toString(){
-			return "测试Object对象";
-	    }
-		
 }
 
 class Person2{
+
 	String name;
 	int age;
 	public Person2(String name,int age) {
