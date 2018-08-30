@@ -19,7 +19,7 @@ public class theRuleOfEncapsulation {
 class Person{
 
 	//一般来说类的属性都私有，只暴露其方法
-	private int age;
+	 private int age;
 	private String name;
 	private int height;
 	private String address;

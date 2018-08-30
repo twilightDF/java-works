@@ -15,7 +15,7 @@ public class TestEncapsulation {
 	public static void main(String[] args) {
 
 		Human h = new Human();
-		//h.age;报错，age属性为private类型，其他类不能访问！
+		 //h.age;报错，age属性为private类型，其他类不能访问！
 		h.name = "杜锋";//name 为default属性。
 	}
 	public void  study(){

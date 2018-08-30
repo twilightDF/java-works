@@ -9,7 +9,6 @@ import com.twilight.demos.TestEncapsulation;
 public class TestEncapsulation03 {
 
 	public static void main(String[] args) {
-
 		TestEncapsulation h = new TestEncapsulation();
 		//h.height = 182;height为default类型，不同包，不能访问。
 	}
