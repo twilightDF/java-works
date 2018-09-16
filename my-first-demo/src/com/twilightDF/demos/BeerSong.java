@@ -1,9 +1,16 @@
 package com.twilightDF.demos;
 
 public class BeerSong {
+	
+	private static final int BEER_NUM = 99; 
+	
 	public static void main (String[] arg) {
 		
-		int beerNum = 99;
+		beer();
+	}
+
+	public static void beer() {
+		int beerNum = BEER_NUM;
 		
 		String word = "bottles";
 		
