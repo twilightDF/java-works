@@ -22,13 +22,13 @@ public class GameObject {
 	}
 
 	//¹¹ÔìÆ÷
-	public GameObject(Image img, double x, double y, int height, int width, int speed) {
+	public GameObject(Image img, double x, double y, int width,int height,int speed) {
 		super();
 		this.img = img;
 		this.x = x;
 		this.y = y;
-		this.height = height;
 		this.width = width;
+		this.height = height;
 		this.speed = speed;
 	}
 
