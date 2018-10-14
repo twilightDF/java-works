@@ -1,3 +1,4 @@
+<<<<<<< HEAD:.gitignore
 /.metadata/
 
 .classpath
@@ -9,3 +10,12 @@
 **/target
 **/.gitignore
 *.class
+=======
+/.metadata/
+
+.classpath
+.project
+.settings
+**/bin/
+.recommenders
+>>>>>>> 68bf2dcb2af41177e040ecc25366ad182e3b59d7:plane-demo/.gitignore
