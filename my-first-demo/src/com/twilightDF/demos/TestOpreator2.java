@@ -4,7 +4,7 @@ package com.twilightDF.demos;
  * @author 杜锋
  *"  & , && , | , || , ! , ^  "
  */
-public class TextOpreator2 {
+public class TestOpreator2 {
 
 	public static void main(String[] args) {
 
@@ -25,7 +25,7 @@ public class TextOpreator2 {
 		//int a = 3/0; 0不能做分母！
 		
 		boolean d = 1>2 && 2>(3/0);
-		System.out .println(d);//不报错，以为短路，系统没有运算 a。
+		System.out .println(d);//不报错，以为短路，系统没有运算 3/0。
 		//boolean d1 = 1>2 & 2>a;
 		//System.out .println(d1);报错，因为没有短路原因，系统运算了 a 而报错。
 	}

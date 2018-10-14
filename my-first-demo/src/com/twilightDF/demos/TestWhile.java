@@ -4,7 +4,7 @@ package com.twilightDF.demos;
  * @author ¶Å·æ
  *
  */
-public class TextWhile {
+public class TestWhile {
 	public static void main(String[] args) {
 		int a = 1;
 		int sum = 0; 

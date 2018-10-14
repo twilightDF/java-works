@@ -1,5 +1,5 @@
 package com.twilight.demos;
-
+import java.util.Scanner;
 public class MathUtil {
 	private int total = 0;
 	public int accumulate(int c){

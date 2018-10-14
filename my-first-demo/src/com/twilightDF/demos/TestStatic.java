@@ -27,10 +27,7 @@ public class TestStatic {
 		//this.id = id;               this不能用在有static修饰的方法中
 
 		//a();                       // 报错！静态方法不能调用非静态方法！
-		TestStatic u2 = new TestStatic();
-		u2.a();
-		u2.id = 123; 
-		//如果想在静态方法中调用非静态方法和属性的话可以通过对象调用！
+		
 		
 		System.out.println(company);//静态方法可以调用静态属性！
 	} //静态方法
@@ -41,5 +38,11 @@ public class TestStatic {
 		u1.login();//通过对象u1调用静态方法login（）
 		
 		u1.a();//通过对象u1调用非静态方法a（）
+		TestStatic u2 = new TestStatic();
+		u2.a();
+		u2.id = 123; 
+		//如果想在静态方法中调用非静态方法和属性的话可以通过对象调用！
+		
+		
 	}
 }

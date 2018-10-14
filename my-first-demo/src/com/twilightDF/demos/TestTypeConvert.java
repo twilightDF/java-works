@@ -5,7 +5,7 @@ package com.twilightDF.demos;
  *原则，范围小的可以自动转换为范围大的！
  *整数类型自动转换为浮点数类型！
  */
-public class TextTypeConvert {
+public class TestTypeConvert {
 
 	public static void main(String[] args) {
 

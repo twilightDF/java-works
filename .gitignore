@@ -5,3 +5,7 @@
 .settings
 **/bin/
 .recommenders
+
+**/target
+**/.gitignore
+*.class

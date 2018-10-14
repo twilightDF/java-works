@@ -13,7 +13,7 @@ public class SxtStu {
 	}
 	//方法
 	void study() {
-		System.out.println("我在学习！使用电脑："+comp.brand );//引用其他的类
+		System.out.println("我在学习！使用电脑："+comp.brand  );//引用其他的类
 	}
 
 	void play() {
@@ -30,13 +30,16 @@ public class SxtStu {
 		
 		
 		//new一个Computer方法里的新对象，再赋值给局部变量c1！
-		Computer c1 = new Computer();
+		Computer c1 = new Computer("联想");
 		
 		//此时c1局部变量就是一个对象，具有相应的属性和方法！
-		c1.brand = "联想";
 		
 		//将c1赋值给stu对象里的comp属性！
 		stu.comp = c1;
+		
+		/**
+		 * 问题：既然c1与comp一样，为何要多此一举创建comp？
+		 */
 		
 		//调用stu对象里的study（）方法！
 		stu.study();		
@@ -46,9 +49,9 @@ public class SxtStu {
 
 class Computer{
 	
-	//构造方法！无参
-	Computer(){
-		
+	//构造方法！有参
+	Computer(String brand){
+		this.brand = brand;
 	}
 	
 	String brand;

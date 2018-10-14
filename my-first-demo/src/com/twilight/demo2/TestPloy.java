@@ -12,7 +12,11 @@ public class TestPloy {
 	public static void main(String[] args) {
 
 		Animal c = new Cat();
+		//上面语句和Cat c = new Cat();有什么不同？
+		c.shout();
 		animalCry(c);
+		a();
+		//前面两个操作有什么不同？
 		animalCry(new Dog());//animal引用类为父类，现在传入多个子类的的对象。构成多态
 		
 		//对象的转型
@@ -26,8 +30,12 @@ public class TestPloy {
 		Cat c2 = (Cat)c;
 		c2.sleep();
 	}
+	//hook!
 	static void animalCry(Animal a) {
 		 a.shout();
+	}
+	static void a() {
+		System.out.println("dd");
 	}
 
 }

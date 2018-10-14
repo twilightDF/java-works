@@ -1,11 +1,11 @@
 package com.twilightDF.demos;
 /**
- * 测试为运算符
+ * 测试位运算符
  * @author 杜锋
  *“ & ， | ， ^ , ~ , << , >> ”
  * 对于数字类型变量进行二进制位于位之间的逻辑操作！
  */
-public class TextOpeartor3 {
+public class TestOpeartor3 {
 
 	public static void main(String[] args) {
 
@@ -31,7 +31,7 @@ public class TextOpeartor3 {
 		 						   //运算符，而作为两个字符串的链接符。"1" +4=14
 		 System.out.println(d + e);//"+"作为算数运算符.4+5=9
 		 System.out.println(d + e + c);//4+5 + "1"=91
-		 System.out.println(c + d +e);//*  "1" + 4 ="14" + 5="145"
+		 System.out.println(c + d +e);//*  "1" + 4 ="14" + 5=145
 		 System.out.println(d + f);//4+'a'= 4+97 =101
 		 
 		 /**

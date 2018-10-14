@@ -5,7 +5,7 @@ package com.twilightDF.demos;
  * @author 杜锋
  *文档注释可以注释说明这个程序是用来干嘛的！
  */
-public class TextComment {
+public class TestComment {
 /**
  * 此处为文档注释
  * 以下为参数名注释

@@ -4,10 +4,10 @@ package com.twilightDF.demos;
  * @author 杜锋
  *
  */
-public class TextMethod {
+public class TestMethod {
 
 	public static void main(String[] args) {
-		TextMethod methodUse = new TextMethod();//new一个对象，方法不能直接调用，必须通过对象调用!
+		TestMethod methodUse = new TestMethod();//new一个对象，方法不能直接调用，必须通过对象调用!
 		methodUse.print();
 		System.out.println("#########################################");
 		int c = 100 + methodUse.add(12, 13, 14);//实参：运用方法时输入的参数。

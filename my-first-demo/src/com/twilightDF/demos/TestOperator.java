@@ -1,10 +1,10 @@
 package com.twilightDF.demos;
 /**
- * ²âÊÔËãÊÇÔËËã·û
+ * ²âÊÔËãÊõÔËËã·û
  * @author ¶Å·æ
  *
  */
-public class TextOperator {
+public class TestOperator {
 
 	public static void main(String[] args) {
 		

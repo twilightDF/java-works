@@ -9,18 +9,20 @@ import com.twilight.demos.TestEncapsulation;
 public class TestEncapsulation03 {
 
 	public static void main(String[] args) {
-		TestEncapsulation h = new TestEncapsulation();
+		Id h = new Id();
+		
+		h.a();
 		//h.height = 182;height为default类型，不同包，不能访问。
 	}
 
 }
 
-class Id extends TestEncapsulation{
+class Id extends TestEncapsulation {
 
 
-	void a() {
-		TestEncapsulation a  = new TestEncapsulation();
-		a.id;
+	public void a() {
+		
+		System.out.println(super.id);
 	}
 	
 }

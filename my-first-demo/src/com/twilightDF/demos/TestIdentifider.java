@@ -4,7 +4,7 @@ package com.twilightDF.demos;
  * @author ¶Å·æ
  *
  */
-public class TextIdentifider {
+public class TestIdentifider {
 	
 	public static void main(String[] agrs) {
 		int abc123 = 1;

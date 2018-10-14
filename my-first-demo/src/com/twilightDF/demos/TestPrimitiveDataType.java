@@ -5,7 +5,7 @@ package com.twilightDF.demos;
  * @author 杜锋
  *
  */
-public class TextPrimitiveDataType {
+public class TestPrimitiveDataType {
 	public static void main(String[] args) {
 		
 		byte age = 30;//byte整型类型，范围为 -2^7~2^7 == -128~127

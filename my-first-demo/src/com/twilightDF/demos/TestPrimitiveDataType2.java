@@ -4,7 +4,7 @@ package com.twilightDF.demos;
  * @author 杜锋
  *
  */
-public class TextPrimitiveDataType2 {
+public class TestPrimitiveDataType2 {
 
 	public static void main(String[] args) {
 
@@ -25,6 +25,23 @@ public class TextPrimitiveDataType2 {
 		System.out.println("" + 'a' + '\'' + 'b');
 		System.out.println("" + 'a' + '\"' + 'b');
 		System.out.println("" + 'a' + '\\' + 'b');
+		
+		/**
+		 * boolean类型测试
+		 */
+		
+		boolean 男性 = true;
+		
+		if(男性) /*不推荐if（男性 == true）,编译不出错，但多此一举！*/{
+			
+			System.out.println("阳");
+		
+		}else {
+			
+			System.out.println("阴");
+		}
+		
+		  
 		
 	}
 

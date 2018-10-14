@@ -7,11 +7,11 @@ import com.sun.jndi.url.iiopname.iiopnameURLContextFactory;
  * @author 杜锋
  *
  */
-public class TextRecursion {
+public class TestRecursion {
 
 	public static void main(String[] arg) {
 		//该功能实现10的递乘！
-		TextRecursion fa = new TextRecursion();
+		TestRecursion fa = new TestRecursion();
 		System.out.println("用递归算的10！ ：" + fa.factoriaR(10));
 		
 		System.out.println("用循环算的10！ ：" + fa.fatcoriaL(10));

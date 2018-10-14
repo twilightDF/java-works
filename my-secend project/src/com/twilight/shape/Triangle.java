@@ -6,6 +6,7 @@ public class Triangle implements Shape {
 	private double borderB = 1;
 	private double angle = 0;
 
+	//构造器，用于传进参数！
 	public Triangle(double borderA, double borderB, double angle) {
 
 		this.borderA = borderA;

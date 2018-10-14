@@ -3,7 +3,8 @@
 
 import  java.awt.*;
 import javax.swing.*;
-;public class BallGame extends JFrame {
+ 
+public class BallGame extends JFrame {
      
     Image ball = Toolkit.getDefaultToolkit().getImage("Image/ball.png");
     Image desk = Toolkit.getDefaultToolkit().getImage("Image/desk.jpg");

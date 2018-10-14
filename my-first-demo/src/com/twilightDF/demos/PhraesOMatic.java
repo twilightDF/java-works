@@ -21,11 +21,6 @@ public class PhraesOMatic {
 		
 		int random1 = (int) (Math.random() * oneLength);
 		int random2 = (int) (Math.random() * sceondLength);
-		 /*
-		  * random()返回的是0 - 1之间的值
-		  * 但为什么与数组长度相乘后是在数
-		  * 组长度范围中随机选一个数？                                        
-		  */
 		 
  		System.out.println(random1);
  		System.out.println(random2);

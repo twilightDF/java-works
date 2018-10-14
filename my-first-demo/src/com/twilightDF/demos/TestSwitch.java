@@ -4,7 +4,7 @@ package com.twilightDF.demos;
  * @author ¶Å·æ
  *
  */
-public class TextSwitch {
+public class TestSwitch {
 	
 	public static void main(String[] args) {
 		char c = 'a';

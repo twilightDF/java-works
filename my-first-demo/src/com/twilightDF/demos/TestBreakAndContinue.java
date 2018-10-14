@@ -4,7 +4,7 @@ package com.twilightDF.demos;
  * @author ∂≈∑Ê
  *
  */
-public class TextBreakAndContinue {
+public class TestBreakAndContinue {
 	public static void main(String[] args) {
 	/*
 	 * ≤‚ ‘break

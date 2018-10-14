@@ -1,11 +1,11 @@
 package com.twilightDF.demos;
 import java.util.Scanner;
 /**
- * 测试用sanner获取键盘输入
+ * 测试用scanner获取键盘输入
  * @author DELL
  *
  */
-public class TextScanner {
+public class TestScanner {
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

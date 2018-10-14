@@ -4,7 +4,7 @@ package com.twilightDF.demos;
  * @author 杜锋
  *
  */
-public class TextConstant {
+public class TestConstant {
 	
 	static int d = 20;//静态变量，还未涉及。生命周期伴随整个类！
 	

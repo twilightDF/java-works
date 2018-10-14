@@ -11,7 +11,7 @@ package com.twilight.demos;
 public class TestEncapsulation {
 
 	int height;//default类型
-	public int id;//protected类型
+	protected int id;//protected类型
 	public static void main(String[] args) {
 
 		Human h = new Human();

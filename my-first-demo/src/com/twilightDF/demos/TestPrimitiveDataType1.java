@@ -9,7 +9,7 @@ import java.math.*;
     
 //导入math数据包，用BigDecimal精确运算浮点类型数据！
 
-public class TextPrimitiveDataType1 {
+public class TestPrimitiveDataType1 {
 
 	public static void main(String[] args) {
 

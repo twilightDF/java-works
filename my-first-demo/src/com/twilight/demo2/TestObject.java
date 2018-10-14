@@ -11,7 +11,7 @@ public class TestObject {
 		//在直接打印对象时，实际上实在调用Object里的toString方法！
 		//toString() 方法：打印包，类信息以及对象的地址
 		TestObject n1 = new TestObject();
-		System.out.println(n1/*实际上是n1.toString*/);//没重写之前的输出：java.lang.Object@6d06d69c
+		System.out.println(n1/*实际上是n1.toString*/);//输出：java.lang.Object@6d06d69c
 		
 		Person2 p2 = new Person2("杜锋",21);
 		System.out.println(p2);

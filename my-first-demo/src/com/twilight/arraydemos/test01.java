@@ -7,18 +7,23 @@ import java.lang.reflect.Array;
  * @author 杜锋
  *
  */
-public class test01 {
+public class Test01 {
 
 	public static void main(String[] args) {
 		int[] array01 = new int[10];
-		String[] array02 = new String[5];
-		Person[] array03 = new Person[3];
+		Person[] array03 = new Person[3];//默认初始化
+		//初始化类型与成员变量初始化赋值一致。
 		
 		array01[0] = 6;
 		array01[1] = 12;
-		array01[2] = 18;
+		array01[2] = 18;//动态初始化
 		//array01[10] = 66; java.lang.ArrayIndexOutOfBoundsException: 10 超出范围！
-		
+
+		Person[] array02 = {
+				new Person(20,"杜锋",1001),
+				new Person(18,"封文豪",1002),
+				new Person(19,"封文婷",1003)
+		};//静态初始化
 		for(int i = 3;i < array01.length;i++) {
 			array01[i] = 6 * (i + 1);
 		}
