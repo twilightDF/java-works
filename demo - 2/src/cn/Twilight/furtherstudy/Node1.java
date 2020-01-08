@@ -4,26 +4,26 @@ package cn.Twilight.furtherstudy;
  */
 public class Node1 {
 
-	private Object previous;
+	private Node1 previous;// Attention！！！ previous表示上一个节点，应该使用节点类型
 
 	private Object obj;
 	
-	private Object next;
+	private Node1 next;//下一个节点，同理，使用节点类型
 	
 	public Node1() {
 		
 	}
-	public Node1(Object previous ,Object obj, Object next) {
+	public Node1(Node1 previous ,Object obj, Node1 next) {
 		super();
 		this.previous = previous;
 		this.obj = obj;
 		this.next = next;
 		
 	}
-	public Object getPrevious() {
+	public Node1 getPrevious() {
 		return previous;
 	}
-	public void setPrevious(Object previous) {
+	public void setPrevious(Node1 previous) {
 		this.previous = previous;
 	}
 	public Object getObj() {
@@ -32,10 +32,10 @@ public class Node1 {
 	public void setObj(Object obj) {
 		this.obj = obj;
 	}
-	public Object getNext() {
+	public Node1 getNext() {
 		return next;
 	}
-	public void setNext(Object next) {
+	public void setNext(Node1 next) {
 		this.next = next;
 	}
 	
